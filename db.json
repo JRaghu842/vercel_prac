@@ -1,9 +1,47 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "users": [
+    {
+      "id": 1,
+      "name": "Chandra",
+      "age": 25,
+      "place": "Visakhapatnam",
+      "batch_name": "WEB-21",
+      "profession": "FSD"
+    },
+    {
+      "id": 2,
+      "name": "Nrupul",
+      "age": 37,
+      "place": "Vijayawada",
+      "batch_name": "WEB-18",
+      "profession": "Frontend"
+    }
+    ,
+        {
+      "id": 3,
+      "name": "Amit",
+      "age": 45,
+      "place": "Mysore",
+      "batch_name": "WEB-17",
+      "profession": "Backend"
+    }
+    ,
+        {
+      "id": 4,
+      "name": "Kiran",
+      "age": 30,
+      "place": "Dharawad",
+      "batch_name": "WEB-19",
+      "profession": "FSD"
+    }
+    ,
+        {
+      "id": 2,
+      "name": "Raghu",
+      "age": 31,
+      "place": "Bengaluru",
+      "batch_name": "WEB-21",
+      "profession": "Backend"
+    }
+  ]
 }
